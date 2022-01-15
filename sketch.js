@@ -65,7 +65,7 @@ function setup() {
   cloudsGroup = new Group();
   obstaclesGroup = new Group();
 
-  trex.debug = true;
+  trex.debug = false;
   trex.setCollider("circle", -5, 0, 30);
 
   // gameover
